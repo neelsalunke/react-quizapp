@@ -1,38 +1,69 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.Menu {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.Menu input,button{
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border : none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.Quiz {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Menu .Quiz .EndGame {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.EndGame {
+  width: 500px;
+  height: 450px;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#selOpt {
+  background-color: darkblue;
+  color: white;
+}
+
+h3 {
+  color: white;
 }
